@@ -1,0 +1,15 @@
+# Ignore everything by default.
+*
+
+# Allow repository metadata.
+!.gitignore
+!.gitattributes
+!.python-version
+!pyproject.toml
+!Makefile
+!README.md
+!uv.lock
+
+# Allow theme files.
+!clearpage.lua
+!custom.theme
